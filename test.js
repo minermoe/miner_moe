@@ -13,7 +13,7 @@ const settings = require('./settings');
 const { keepalive, timeout, url } = settings.test;
 
 describe('visiting website', function() {
-  this.timeout(0); // Disable timeouts
+  this.timeout(0); // Disable Timeouts
 
   it('should be successful', (done) => {
     (async () => {
